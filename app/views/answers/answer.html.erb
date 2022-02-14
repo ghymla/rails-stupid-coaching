@@ -1,0 +1,19 @@
+<h2>voici la réponse</h2>
+<%= link_to "return to the ask", ask_path %>
+<br>
+<br>
+<div class = "bidouille">
+  <p> <%= @answer %> </p>
+  <i> - you</i>
+</div>
+<br>
+<% if @answer == "voilou" %>
+  <h3> je suis le h3</h3>
+<% elsif @answer.last == "?" %>
+  <h3>Silly question, get dressed and go to work!</h3>
+<% elsif @answer == "I am going to work" %>
+  <h3>Great!</h3>
+<% else %>
+  <h3>I don't care, get dressed and go to work!</h3>
+<% end %>
+<i> - your coach</i>

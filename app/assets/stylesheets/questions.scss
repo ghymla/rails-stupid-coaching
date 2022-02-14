@@ -1,0 +1,23 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+a {
+  text-decoration: none;
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+h3 {
+  color: red;
+}
+
+.bidouille {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 20em;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
